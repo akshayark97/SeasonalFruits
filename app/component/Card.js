@@ -16,7 +16,7 @@ function Card({ title, subTitle, imageUrl, onPress, thumbnailUrl }) {
         />
         <View style={styles.detailsContainer}>
           <Text style={styles.title} numberOfLines={1}>
-            {title}
+            {title.toUpperCase()}
           </Text>
           <Text style={styles.subTitle} numberOfLines={2}>
             {subTitle}
@@ -46,6 +46,8 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   title: {
+    color: 'tomato',
+    fontWeight: 'bold',
     marginBottom: 7,
   },
 });

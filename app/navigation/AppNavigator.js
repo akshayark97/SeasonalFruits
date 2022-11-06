@@ -1,8 +1,8 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import SeasonHome from "../component/Home/SeasonHome";
 import SearchFruit from "../component/Search/SearchFruit";
+import SeasonHomeNavigator from "./SeasonHomeNavigator";
 
 const Tab = createBottomTabNavigator();
 
@@ -11,7 +11,7 @@ const AppNavigator = () => {
     <Tab.Navigator>
       <Tab.Screen
         name="home"
-        component={SeasonHome}
+        component={SeasonHomeNavigator}
         options={{
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="home" color={color} size={size} />
