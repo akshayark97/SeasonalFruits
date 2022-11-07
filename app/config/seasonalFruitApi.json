@@ -5,7 +5,8 @@
       "imageUrl": "",
       "fruits": [
         {
-          "name": "papaya",
+          "season": "january",
+          "name": "Papaya",
           "color": ["Green", "Yello"],
           "healthBenefits": {
             "description": "Reduce the risk of heart disease and prevent the oxidation of cholesterol."
@@ -14,7 +15,8 @@
           "places": ["Andhra Pradesh", "Karnataka", "Kerala"]
         },
         {
-          "name": "pomegranate",
+          "season": "january",
+          "name": "Pomegranate",
           "color": ["Red"],
           "healthBenefits": {
             "description": "Improves Immunity, Fight Type-2 diabetes, keep blood pressure in check and smoothen digestion and make your skin glow"
@@ -33,6 +35,7 @@
           ]
         },
         {
+          "season": "january",
           "name": "strawberries",
           "color": ["Red", "Blue-Grey"],
           "healthBenefits": {
@@ -51,6 +54,7 @@
           ]
         },
         {
+          "season": "january",
           "name": "passionfruits",
           "color": ["Yellow", "Red", "Purple", "Green"],
           "healthBenefits": {
@@ -68,6 +72,7 @@
           ]
         },
         {
+          "season": "january",
           "name": "grapes",
           "color": ["Green", "Black", "Red", "Purple"],
           "healthBenefits": {
@@ -77,6 +82,7 @@
           "places": ["Maharashtra", "Karnataka", "Tamil Nadu", "Mizoram"]
         },
         {
+          "season": "january",
           "name": "guava",
           "color": ["Dark green", "Lighter yellow-green"],
           "healthBenefits": {
@@ -91,7 +97,8 @@
       "id": "february",
       "fruits": [
         {
-          "name": "oraganges",
+          "season": "february",
+          "name": "Oranges",
           "color": ["Orange"],
           "healthBenefits": {
             "description": "High in Vitamin C, Healthy immune system, Prevents skin damage, Keeps blood pressure under check, Lowers cholesterol, Helps absorption of iron, Promotes good heart health, Controls blood sugar level, Lowers the risk of cancer, Alkalizes the body, Good eye health, Safeguards against constipation"
@@ -100,6 +107,7 @@
           "places": ["Wynad", "Nilgiri", "Palney", "Shevroy hills"]
         },
         {
+          "season": "february",
           "name": "chickoo",
           "color": ["Pale yellow", "Earthy brown"],
           "healthBenefits": {
@@ -116,6 +124,7 @@
           ]
         },
         {
+          "season": "february",
           "name": "muskmelon",
           "color": ["Creamy", "Light yellow-orange"],
           "healthBenefits": {
@@ -131,6 +140,7 @@
           ]
         },
         {
+          "season": "february",
           "name": "grapes",
           "color": ["Green", "Black", "Red", "Purple"],
           "healthBenefits": {
@@ -140,6 +150,7 @@
           "places": ["Maharashtra", "Karnataka", "Tamil Nadu", "Mizoram"]
         },
         {
+          "season": "february",
           "name": "guava",
           "color": ["green", "yellow", "maroon"],
           "healthBenefits": {
@@ -159,6 +170,7 @@
           ]
         },
         {
+          "season": "february",
           "name": "papaya",
           "color": ["Red", "Orange", "Yellow"],
           "healthBenefits": {
@@ -168,6 +180,7 @@
           "places": ["TamilNadu", "Karnataka", "Andhra Pradesh", "Gujarat"]
         },
         {
+          "season": "february",
           "name": "pomegranate",
           "color": ["White-yellow", "Green", "Pink", "Red", "Dark purple"],
           "healthBenefits": {
@@ -185,6 +198,7 @@
           ]
         },
         {
+          "season": "february",
           "name": "pineapple",
           "color": ["Yellow", "Brown"],
           "healthBenefits": {
@@ -201,6 +215,7 @@
           ]
         },
         {
+          "season": "february",
           "name": "strawberries",
           "color": "",
           "healthBenefits": "",
