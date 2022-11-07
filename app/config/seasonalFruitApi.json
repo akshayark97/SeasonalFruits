@@ -5,18 +5,20 @@
       "imageUrl": "",
       "fruits": [
         {
-          "name": "papaya",
+          "season": "january",
+          "name": "Papaya",
           "color": ["Green", "Yello"],
-          "health benefits": {
+          "healthBenefits": {
             "description": "Reduce the risk of heart disease and prevent the oxidation of cholesterol."
           },
           "vitamin": ["A", "B", "C"],
           "places": ["Andhra Pradesh", "Karnataka", "Kerala"]
         },
         {
-          "name": "pomegranate",
+          "season": "january",
+          "name": "Pomegranate",
           "color": ["Red"],
-          "health benefits": {
+          "healthBenefits": {
             "description": "Improves Immunity, Fight Type-2 diabetes, keep blood pressure in check and smoothen digestion and make your skin glow"
           },
           "vitamin": ["C", "K", "Potassium"],
@@ -33,9 +35,10 @@
           ]
         },
         {
+          "season": "january",
           "name": "strawberries",
           "color": ["Red", "Blue-Grey"],
-          "health benefits": {
+          "healthBenefits": {
             "description": "Reduce the risk of cancer, and helps to cure Diabetes, Helps in reducing Stroke and Improves Heart disease"
           },
           "vitamin": ["C"],
@@ -51,9 +54,10 @@
           ]
         },
         {
+          "season": "january",
           "name": "passionfruits",
           "color": ["Yellow", "Red", "Purple", "Green"],
-          "health benefits": {
+          "healthBenefits": {
             "description": "Your body uses it to make blood vessels, cartilage, muscles, and collagen, which keeps skin looking young"
           },
           "vitamin": ["C", "Beta carotene", "Polyphenols"],
@@ -68,20 +72,22 @@
           ]
         },
         {
+          "season": "january",
           "name": "grapes",
           "color": ["Green", "Black", "Red", "Purple"],
-          "health benefits": {
+          "healthBenefits": {
             "description": "Helps your immune system, Prevents cancer, Lowers blood pressure Protects against heart disease Reduces high cholesterol Protects against diabetes Helps maintain brain health, Improves bone health, Slows down aging and Improves sleep."
           },
           "vitamin": ["C", "K"],
           "places": ["Maharashtra", "Karnataka", "Tamil Nadu", "Mizoram"]
         },
         {
+          "season": "january",
           "name": "guava",
           "color": ["Dark green", "Lighter yellow-green"],
-          "health benefits": [
-            "Boosts your immunity, Has anti-cancer components, Prevents diabetes, Keeps your heart healthy, De-stresses you, Helps you during pregnancy, Helps you lose weight"
-          ],
+          "healthBenefits": {
+            "description": "Boosts your immunity, Has anti-cancer components, Prevents diabetes, Keeps your heart healthy, De-stresses you, Helps you during pregnancy, Helps you lose weight"
+          },
           "vitamin": ["A", "C"],
           "places": ["Bihar", "Andhra Pradesh", "Uttar Pradesh"]
         }
@@ -91,35 +97,22 @@
       "id": "february",
       "fruits": [
         {
-          "name": "oraganges",
+          "season": "february",
+          "name": "Oranges",
           "color": ["Orange"],
-          "health benefits": [
-            "High in Vitamin C",
-            "Healthy immune system",
-            "Prevents skin damage",
-            "Keeps blood pressure under check",
-            "Lowers cholesterol",
-            "Helps absorption of iron",
-            "Promotes good heart health",
-            "Controls blood sugar level",
-            "Lowers the risk of cancer",
-            "Alkalizes the body",
-            "Good eye health",
-            "Safeguards against constipation"
-          ],
+          "healthBenefits": {
+            "description": "High in Vitamin C, Healthy immune system, Prevents skin damage, Keeps blood pressure under check, Lowers cholesterol, Helps absorption of iron, Promotes good heart health, Controls blood sugar level, Lowers the risk of cancer, Alkalizes the body, Good eye health, Safeguards against constipation"
+          },
           "vitamin": ["C"],
           "places": ["Wynad", "Nilgiri", "Palney", "Shevroy hills"]
         },
         {
+          "season": "february",
           "name": "chickoo",
           "color": ["Pale yellow", "Earthy brown"],
-          "health benefits": [
-            "Improved Digestion",
-            "Perfect anti-inflammatory agent",
-            "Cures Cold and Cough",
-            "Good for the Bones",
-            "Acts as an Antioxidant"
-          ],
+          "healthBenefits": {
+            "description": "Improved Digestion, Perfect anti-inflammatory agent, Cures Cold and Cough, Good for the Bones, Acts as an Antioxidant"
+          },
           "vitamin": ["E", "A", "C"],
           "places": [
             "Karnataka",
@@ -131,15 +124,12 @@
           ]
         },
         {
+          "season": "february",
           "name": "muskmelon",
           "color": ["Creamy", "Light yellow-orange"],
-          "health benefits": [
-            "Good for your blood pressure",
-            "Promotes digestion",
-            "Helps in hydration",
-            "Boosts skin health",
-            "Contains a variety of nutrients"
-          ],
+          "healthBenefits": {
+            "description": "Good for your blood pressure, Promotes digestion, Helps in hydration, Boosts skin health, Contains a variety of nutrients"
+          },
           "vitamin": ["C"],
           "places": [
             "Punjab",
@@ -150,31 +140,22 @@
           ]
         },
         {
+          "season": "february",
           "name": "grapes",
           "color": ["Green", "Black", "Red", "Purple"],
-          "health benefits": [
-            "Slows down aging",
-            "Helps maintain brain health",
-            "Reduces high cholesterol",
-            "Protects against heart disease",
-            "Lowers blood pressure"
-          ],
+          "healthBenefits": {
+            "description": "Slows down aging, Helps maintain brain health, Reduces high cholesterol, Protects against heart disease, Lowers blood pressure"
+          },
           "vitamin": ["K"],
           "places": ["Maharashtra", "Karnataka", "Tamil Nadu", "Mizoram"]
         },
         {
+          "season": "february",
           "name": "guava",
           "color": ["green", "yellow", "maroon"],
-          "health benefits": [
-            "May Help Lower Blood Sugar Levels",
-            "May Boost Heart Health",
-            "May Help Relieve Painful Symptoms of Menstruation",
-            "May Benefit Your Digestive System",
-            "May Aid Weight Loss",
-            "May Have an Anticancer Effect",
-            "May Help Boost Your Immunity",
-            "Eating Guavas May Be Good for Your Skin"
-          ],
+          "healthBenefits": {
+            "description": "May Help Lower Blood Sugar Levels, May Boost Heart Health, May Help Relieve Painful Symptoms of Menstruation, May Benefit Your Digestive System, May Aid Weight Loss, May Have an Anticancer Effect, May Help Boost Your Immunity, Eating Guavas May Be Good for Your Skin"
+          },
           "vitamin": ["C"],
           "places": [
             "Maharashtra",
@@ -189,33 +170,22 @@
           ]
         },
         {
+          "season": "february",
           "name": "papaya",
           "color": ["Red", "Orange", "Yellow"],
-          "health benefits": [
-            "Has Powerful Antioxidant Effects",
-            "Has Anticancer Properties",
-            "May Improve Heart Health",
-            "May Fight Inflammation",
-            "May Improve Digestion",
-            "Protects Against Skin Damage"
-          ],
+          "healthBenefits": {
+            "description": "Has Powerful Antioxidant Effects, Has Anticancer Properties, May Improve Heart Health, May Fight Inflammation, May Improve Digestion, Protects Against Skin Damage"
+          },
           "vitamin": ["A", "C", "E"],
           "places": ["TamilNadu", "Karnataka", "Andhra Pradesh", "Gujarat"]
         },
         {
+          "season": "february",
           "name": "pomegranate",
           "color": ["White-yellow", "Green", "Pink", "Red", "Dark purple"],
-          "health benefits": [
-            "Packed with nutrients",
-            "Rich in antioxidants",
-            "May help keep inflammation at bay",
-            "May offer heart health benefits",
-            "Support urinary health",
-            "May have antimicrobial properties",
-            "May improve exercise endurance",
-            "Good for your brain",
-            "Supports digestive health"
-          ],
+          "healthBenefits": {
+            "description":  "Packed with nutrients, Rich in antioxidants, May help keep inflammation at bay, May offer heart healthBenefits, Support urinary health, May have antimicrobial properties, May improve exercise endurance, Good for your brain, Supports digestive health"
+          },
           "vitamin": ["C", "K", "Potassium"],
           "places": [
             "Maharashtra",
@@ -228,15 +198,12 @@
           ]
         },
         {
+          "season": "february",
           "name": "pineapple",
           "color": ["Yellow", "Brown"],
-          "health benefits": [
-            "Loaded with nutrients",
-            "Contains disease-fighting antioxidants",
-            "May aid digestion",
-            "May reduce your risk of cancer",
-            "May ease symptoms of arthritis"
-          ],
+          "healthBenefits": {
+            "description": "Loaded with nutrients, Contains disease-fighting antioxidants, May aid digestion, May reduce your risk of cancer, May ease symptoms of arthritis"
+          },
           "vitamin": ["C", "Manganese"],
           "places": [
             "Kerala",
@@ -248,9 +215,10 @@
           ]
         },
         {
+          "season": "february",
           "name": "strawberries",
           "color": "",
-          "health benefits": "",
+          "healthBenefits": "",
           "vitamin": "",
           "places": ""
         }

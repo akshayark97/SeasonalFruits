@@ -1,5 +1,5 @@
 import React from "react";
-import { FlatList, StyleSheet, Text } from "react-native";
+import { FlatList, StyleSheet } from "react-native";
 import routes from "../../../navigation/routes";
 import Card from "../../Card";
 import Screen from "../../Screen";

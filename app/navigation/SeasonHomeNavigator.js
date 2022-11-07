@@ -6,7 +6,7 @@ import SeasonFruitDetails from "../component/screens/Home/SeasonFruitDetails";
 
 const Stack = createNativeStackNavigator();
 const SeasonHomeNavigator = () => (
-  <Stack.Navigator mode="modal" screenOptions={{ headerShown: false }}>
+  <Stack.Navigator mode="modal">
     <Stack.Screen name="SeasonListings" component={SeasonHome} />
     <Stack.Screen name="FruitListings" component={SeasonFruits} />
     <Stack.Screen name="FruitDetails" component={SeasonFruitDetails} />

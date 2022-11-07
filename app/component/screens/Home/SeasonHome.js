@@ -1,4 +1,4 @@
-import { Text, StyleSheet, View, FlatList } from "react-native";
+import { StyleSheet, FlatList } from "react-native";
 import React from "react";
 import Screen from "../../Screen";
 import Card from "../../Card";
