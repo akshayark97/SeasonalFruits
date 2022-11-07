@@ -18,6 +18,10 @@ function SeasonFruitDetails({ route }) {
       />
       <View style={styles.detailsContainer}>
         <Text style={styles.title}>{listings.name}</Text>
+        <Text>{listings.color}</Text>
+        <Text>{listings.healthBenefits.description}</Text>
+        <Text>{listings.vitamin}</Text>
+        <Text>{listings.places}</Text>
       </View>
     </KeyboardAvoidingView>
   );

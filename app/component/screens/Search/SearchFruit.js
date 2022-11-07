@@ -1,6 +1,6 @@
-import { View, StyleSheet, Text } from "react-native";
+import { StyleSheet, Text } from "react-native";
 import React from "react";
-import Screen from "../Screen";
+import Screen from "../../Screen";
 
 function SearchFruit() {
   return (

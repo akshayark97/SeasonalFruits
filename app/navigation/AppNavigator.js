@@ -1,7 +1,7 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import SearchFruit from "../component/Search/SearchFruit";
+import SearchFruit from "../component/screens/Search/SearchFruit";
 import SeasonHomeNavigator from "./SeasonHomeNavigator";
 
 const Tab = createBottomTabNavigator();
