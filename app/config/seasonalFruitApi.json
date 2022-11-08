@@ -2,9 +2,9 @@
   "seasonalFruit": [
     {
       "id": "january",
-      "imageUrl": "",
       "fruits": [
         {
+          "id": "jpa",
           "season": "january",
           "name": "Papaya",
           "color": ["Green", "Yello"],
@@ -15,6 +15,7 @@
           "places": ["Andhra Pradesh", "Karnataka", "Kerala"]
         },
         {
+          "id": "jpom",
           "season": "january",
           "name": "Pomegranate",
           "color": ["Red"],
@@ -35,8 +36,9 @@
           ]
         },
         {
+          "id": "jstraw",
           "season": "january",
-          "name": "strawberries",
+          "name": "Strawberries",
           "color": ["Red", "Blue-Grey"],
           "healthBenefits": {
             "description": "Reduce the risk of cancer, and helps to cure Diabetes, Helps in reducing Stroke and Improves Heart disease"
@@ -54,8 +56,9 @@
           ]
         },
         {
+          "id": "jpassion",
           "season": "january",
-          "name": "passionfruits",
+          "name": "Passionfruits",
           "color": ["Yellow", "Red", "Purple", "Green"],
           "healthBenefits": {
             "description": "Your body uses it to make blood vessels, cartilage, muscles, and collagen, which keeps skin looking young"
@@ -72,8 +75,9 @@
           ]
         },
         {
+          "id": "jgrap",
           "season": "january",
-          "name": "grapes",
+          "name": "Grapes",
           "color": ["Green", "Black", "Red", "Purple"],
           "healthBenefits": {
             "description": "Helps your immune system, Prevents cancer, Lowers blood pressure Protects against heart disease Reduces high cholesterol Protects against diabetes Helps maintain brain health, Improves bone health, Slows down aging and Improves sleep."
@@ -82,8 +86,9 @@
           "places": ["Maharashtra", "Karnataka", "Tamil Nadu", "Mizoram"]
         },
         {
+          "id": "jgua",
           "season": "january",
-          "name": "guava",
+          "name": "Guava",
           "color": ["Dark green", "Lighter yellow-green"],
           "healthBenefits": {
             "description": "Boosts your immunity, Has anti-cancer components, Prevents diabetes, Keeps your heart healthy, De-stresses you, Helps you during pregnancy, Helps you lose weight"
@@ -97,6 +102,7 @@
       "id": "february",
       "fruits": [
         {
+          "id": "foran",
           "season": "february",
           "name": "Oranges",
           "color": ["Orange"],
@@ -107,8 +113,9 @@
           "places": ["Wynad", "Nilgiri", "Palney", "Shevroy hills"]
         },
         {
+          "id": "fchi",
           "season": "february",
-          "name": "chickoo",
+          "name": "Chickoo",
           "color": ["Pale yellow", "Earthy brown"],
           "healthBenefits": {
             "description": "Improved Digestion, Perfect anti-inflammatory agent, Cures Cold and Cough, Good for the Bones, Acts as an Antioxidant"
@@ -124,8 +131,9 @@
           ]
         },
         {
+          "id": "fmusk",
           "season": "february",
-          "name": "muskmelon",
+          "name": "Muskmelon",
           "color": ["Creamy", "Light yellow-orange"],
           "healthBenefits": {
             "description": "Good for your blood pressure, Promotes digestion, Helps in hydration, Boosts skin health, Contains a variety of nutrients"
@@ -140,8 +148,9 @@
           ]
         },
         {
+          "id": "fgrap",
           "season": "february",
-          "name": "grapes",
+          "name": "Grapes",
           "color": ["Green", "Black", "Red", "Purple"],
           "healthBenefits": {
             "description": "Slows down aging, Helps maintain brain health, Reduces high cholesterol, Protects against heart disease, Lowers blood pressure"
@@ -150,8 +159,9 @@
           "places": ["Maharashtra", "Karnataka", "Tamil Nadu", "Mizoram"]
         },
         {
+          "id": "fgua",
           "season": "february",
-          "name": "guava",
+          "name": "Guava",
           "color": ["green", "yellow", "maroon"],
           "healthBenefits": {
             "description": "May Help Lower Blood Sugar Levels, May Boost Heart Health, May Help Relieve Painful Symptoms of Menstruation, May Benefit Your Digestive System, May Aid Weight Loss, May Have an Anticancer Effect, May Help Boost Your Immunity, Eating Guavas May Be Good for Your Skin"
@@ -170,8 +180,9 @@
           ]
         },
         {
+          "id": "fpap",
           "season": "february",
-          "name": "papaya",
+          "name": "Papaya",
           "color": ["Red", "Orange", "Yellow"],
           "healthBenefits": {
             "description": "Has Powerful Antioxidant Effects, Has Anticancer Properties, May Improve Heart Health, May Fight Inflammation, May Improve Digestion, Protects Against Skin Damage"
@@ -180,11 +191,12 @@
           "places": ["TamilNadu", "Karnataka", "Andhra Pradesh", "Gujarat"]
         },
         {
+          "id": "fpom",
           "season": "february",
-          "name": "pomegranate",
+          "name": "Pomegranate",
           "color": ["White-yellow", "Green", "Pink", "Red", "Dark purple"],
           "healthBenefits": {
-            "description":  "Packed with nutrients, Rich in antioxidants, May help keep inflammation at bay, May offer heart healthBenefits, Support urinary health, May have antimicrobial properties, May improve exercise endurance, Good for your brain, Supports digestive health"
+            "description": "Packed with nutrients, Rich in antioxidants, May help keep inflammation at bay, May offer heart healthBenefits, Support urinary health, May have antimicrobial properties, May improve exercise endurance, Good for your brain, Supports digestive health"
           },
           "vitamin": ["C", "K", "Potassium"],
           "places": [
@@ -198,8 +210,9 @@
           ]
         },
         {
+          "id": "fpin",
           "season": "february",
-          "name": "pineapple",
+          "name": "Pineapple",
           "color": ["Yellow", "Brown"],
           "healthBenefits": {
             "description": "Loaded with nutrients, Contains disease-fighting antioxidants, May aid digestion, May reduce your risk of cancer, May ease symptoms of arthritis"
@@ -213,56 +226,8 @@
             "Goa",
             "Maharashtra"
           ]
-        },
-        {
-          "season": "february",
-          "name": "strawberries",
-          "color": "",
-          "healthBenefits": "",
-          "vitamin": "",
-          "places": ""
         }
       ]
-    },
-    {
-      "id": "march",
-      "fruits": {}
-    },
-    {
-      "id": "april",
-      "fruits": {}
-    },
-    {
-      "id": "may",
-      "fruits": {}
-    },
-    {
-      "id": "june",
-      "fruits": {}
-    },
-    {
-      "id": "july",
-      "fruits": {}
-    },
-    {
-      "id": "august",
-      "fruits": {}
-    },
-    {
-      "id": "september",
-      "fruits": {}
-    },
-    {
-      "id": "october",
-      "fruits": {}
-    },
-    {
-      "id": "november",
-      "fruits": {}
-    },
-    {
-      "id": "december",
-      "fruits": {}
     }
   ]
 }
