@@ -1,8 +1,8 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import SearchFruit from "../component/screens/Search/SearchFruit";
 import SeasonHomeNavigator from "./SeasonHomeNavigator";
+import SearchFruitDetails from "../component/screens/Search/SearchFruitDetails";
 
 const Tab = createBottomTabNavigator();
 
@@ -21,7 +21,7 @@ const AppNavigator = () => {
       />
         <Tab.Screen
           name="search"
-          component={SearchFruit}
+          component={SearchFruitDetails}
           options={{
             tabBarIcon: ({ color, size }) => (
               <MaterialCommunityIcons name="card-search" color={color} size={size} />
