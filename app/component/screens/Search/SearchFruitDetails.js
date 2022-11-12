@@ -8,11 +8,13 @@ import SubmitButton from "../../form/SubmitButton";
 import seasonFruitApi from "../../../config/seasonalFruitApi.json";
 import Card from "../../Card";
 import { searchFruit } from "../../../config/utility";
+import routes from "../../../navigation/routes";
+import FruitDetail from "./FruitDetail";
 
 const validationSchema = Yup.object().shape({
   searchItem: Yup.string().required().min(1).label("Search Fruit"),
 });
-function SearchFruit({ navigation }) {
+function SearchFruitDetails({ navigation }) {
   const [searchExists, setSearchExists] = useState(false);
   const [searchResult, setSearchResult] = useState();
   
@@ -21,6 +23,7 @@ function SearchFruit({ navigation }) {
     const updatedFruitResult = fruitResult.map((fruit, index) => fruit[0])
     const updatedResultNotUndefined = updatedFruitResult.filter(result => result !== undefined)
     setSearchResult(updatedResultNotUndefined)
+    console.log(searchResult);
   };
   return (
     <Screen style={styles.container}>
@@ -42,7 +45,11 @@ function SearchFruit({ navigation }) {
       <FlatList
         data={searchResult}
         keyExtractor={(list) => list.id}
-        renderItem={({ item }) => <Card title={item.season} />}
+        renderItem={({ item }) => 
+          <FruitDetail
+            title={item.season}
+          />
+        }
       />
     </Screen>
   );
@@ -54,4 +61,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SearchFruit;
+export default SearchFruitDetails;
