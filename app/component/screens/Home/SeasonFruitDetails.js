@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
   sectionSubText: {
     color: '#33425B',
     fontFamily: 'Cochin',
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: "500",
     padding: 3
   },
