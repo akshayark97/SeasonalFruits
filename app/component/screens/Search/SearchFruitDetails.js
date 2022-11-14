@@ -41,7 +41,6 @@ function SearchFruitDetails({ navigation }) {
         />
         <SubmitButton title="Search" />
       </Form>
-      {/* <Text>{searchResult.map((result) => result.name)}</Text> */}
       <FlatList
         data={searchResult}
         keyExtractor={(list) => list.id}
