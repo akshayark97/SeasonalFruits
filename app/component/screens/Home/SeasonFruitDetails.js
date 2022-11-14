@@ -1,29 +1,50 @@
 import React from "react";
-import { View, StyleSheet, KeyboardAvoidingView, Text } from "react-native";
-import { Image } from "react-native-expo-image-cache";
+import {
+  View,
+  StyleSheet,
+  KeyboardAvoidingView,
+  Text,
+  Image,
+  ScrollView,
+} from "react-native";
 import colors from "../../../config/colors";
 
 function SeasonFruitDetails({ route }) {
   const listings = route.params;
   return (
-    <KeyboardAvoidingView
-      behavior="position"
-      keyboardVerticalOffset={Platform.OS === "ios" ? 0 : 100}
-    >
-      <Image
-        style={styles.image}
-        // preview={{ uri: listings.images[0].thumbnailUrl }}
-        tint="light"
-        // uri={listings.images[0].url}
-      />
-      <View style={styles.detailsContainer}>
-        <Text style={styles.title}>{listings.name}</Text>
-        <Text>{listings.color}</Text>
-        <Text>{listings.healthBenefits.description}</Text>
-        <Text>{listings.vitamin}</Text>
-        <Text>{listings.places}</Text>
-      </View>
-    </KeyboardAvoidingView>
+    <ScrollView>
+      <KeyboardAvoidingView
+        behavior="position"
+        keyboardVerticalOffset={Platform.OS === "ios" ? 0 : 100}
+      >
+        <Image style={styles.image} tint="light" />
+        <View style={styles.detailsContainer}>
+          <Text style={styles.title}>{listings.name}</Text>
+          <View>
+            <Text style={styles.sectionTitle}>Color</Text>
+            {listings.color.map((color) => (
+              <Text style={styles.sectionSubText}>{color}</Text>
+            ))}
+          </View>
+          <View>
+            <Text style={styles.sectionTitle}>Health Benefit</Text>
+            <Text style={styles.sectionSubText}>{listings.healthBenefits.description}</Text>
+          </View>
+          <View>
+            <Text style={styles.sectionTitle}>Vitamin</Text>
+            {listings.vitamin.map((vit) => (
+              <Text style={styles.sectionSubText}>{vit}</Text>
+            ))}
+          </View>
+          <View>
+            <Text style={styles.sectionTitle}>Places</Text>
+            {listings.places.map((place) => (
+              <Text style={styles.sectionSubText}>{place}</Text>
+            ))}
+          </View>
+        </View>
+      </KeyboardAvoidingView>
+    </ScrollView>
   );
 }
 
@@ -31,9 +52,26 @@ const styles = StyleSheet.create({
   detailsContainer: {
     padding: 20,
   },
+  sectionSubText: {
+    color: '#33425B',
+    fontFamily: 'Cochin',
+    fontSize: 16,
+    fontWeight: "500",
+    padding: 3
+  },
+  sectionTitle: {
+    backgroundColor: '#55AE95',
+    color: colors.white,
+    fontFamily: 'Cochin',
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 5,
+    marginTop: 20,
+    padding: 5,
+  },
   image: {
-    width: "100%",
     height: 300,
+    width: "100%",
   },
   price: {
     color: colors.secondary,
@@ -42,6 +80,8 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   },
   title: {
+    color: "#FF7F3F",
+    fontFamily: 'Cochin',
     fontSize: 24,
     fontWeight: "500",
   },
