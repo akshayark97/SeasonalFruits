@@ -3,21 +3,18 @@ import { View, Text, StyleSheet, TouchableWithoutFeedback, Image } from "react-n
 
 import colors from "../config/colors";
 
-function Card({ title, subTitle, imageUrl, onPress }) {
+function Card({ title, imageUrl, onPress }) {
   return (
     <TouchableWithoutFeedback onPress={onPress}>
       <View style={styles.card}>
         <Image
           style={styles.image}
           tint="light"
-          source={require('../../assets/Images/seasonFruitjanuary.png')}
+          source={imageUrl}
         />
         <View style={styles.detailsContainer}>
           <Text style={styles.title} numberOfLines={1}>
             {title.toUpperCase()}
-          </Text>
-          <Text style={styles.subTitle} numberOfLines={2}>
-            {subTitle}
           </Text>
         </View>
       </View>
@@ -28,7 +25,7 @@ function Card({ title, subTitle, imageUrl, onPress }) {
 const styles = StyleSheet.create({
   card: {
     borderRadius: 15,
-    backgroundColor: colors.white,
+    backgroundColor: "#BCEAD5",
     marginBottom: 20,
     overflow: "hidden",
   },
@@ -39,14 +36,9 @@ const styles = StyleSheet.create({
     width: "100%",
     height: 200,
   },
-  subTitle: {
-    color: colors.secondary,
-    fontWeight: "bold",
-  },
   title: {
-    color: 'tomato',
+    color: colors.primary,
     fontWeight: 'bold',
-    marginBottom: 7,
   },
 });
 

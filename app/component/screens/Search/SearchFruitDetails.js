@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import Screen from "../../Screen";
 import { Form, FormField } from "../../form";
 import SubmitButton from "../../form/SubmitButton";
-import seasonFruitApi from "../../../config/seasonalFruitApi.json";
+import { seasonalFruitApi } from "../../../config/seasonalFruitApi";
 import Card from "../../Card";
 import { searchFruit } from "../../../config/utility";
 import routes from "../../../navigation/routes";
@@ -19,7 +19,7 @@ function SearchFruitDetails({ navigation }) {
   const [searchResult, setSearchResult] = useState();
   
   const handleSearch = ({ searchItem }) => {debugger
-    const fruitResult = searchFruit(searchItem, seasonFruitApi)
+    const fruitResult = searchFruit(searchItem, seasonalFruitApi)
     const updatedFruitResult = fruitResult.map((fruit, index) => fruit[0])
     const updatedResultNotUndefined = updatedFruitResult.filter(result => result !== undefined)
     setSearchResult(updatedResultNotUndefined)
@@ -37,7 +37,7 @@ function SearchFruitDetails({ navigation }) {
         <FormField
           maxLength={255}
           name="searchItem"
-          placeholder="search here..."
+          placeholder="Search fruit season"
         />
         <SubmitButton title="Search" />
       </Form>
