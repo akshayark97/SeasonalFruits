@@ -2,11 +2,12 @@ export const seasonalFruitApi = [
   {
     id: "january",
     imageUrl: require("../../assets/Images/seasonalFruitJanuary.png"),
-    fruits: [
+    fruits: [ 
       {
         id: "jpa",
         season: "january",
         name: "Papaya",
+        imageUrl: require("../../assets/Images/papaya.png"),
         color: ["Green", "Yello"],
         healthBenefits: {
           description:
@@ -19,6 +20,7 @@ export const seasonalFruitApi = [
         id: "jpom",
         season: "january",
         name: "Pomegranate",
+        imageUrl: require("../../assets/Images/pomogranate.png"),
         color: ["Red"],
         healthBenefits: {
           description:
@@ -41,6 +43,7 @@ export const seasonalFruitApi = [
         id: "jstraw",
         season: "january",
         name: "Strawberries",
+        imageUrl: require("../../assets/Images/strawberry.png"),
         color: ["Red", "Blue-Grey"],
         healthBenefits: {
           description:
@@ -62,6 +65,7 @@ export const seasonalFruitApi = [
         id: "jpassion",
         season: "january",
         name: "Passionfruits",
+        imageUrl: require("../../assets/Images/passionfruit.png"),
         color: ["Yellow", "Red", "Purple", "Green"],
         healthBenefits: {
           description:
@@ -82,6 +86,7 @@ export const seasonalFruitApi = [
         id: "jgrap",
         season: "january",
         name: "Grapes",
+        imageUrl: require("../../assets/Images/grapes.png"),
         color: ["Green", "Black", "Red", "Purple"],
         healthBenefits: {
           description:
@@ -94,6 +99,7 @@ export const seasonalFruitApi = [
         id: "jgua",
         season: "january",
         name: "Guava",
+        imageUrl: require("../../assets/Images/guava.png"),
         color: ["Dark green", "Lighter yellow-green"],
         healthBenefits: {
           description:

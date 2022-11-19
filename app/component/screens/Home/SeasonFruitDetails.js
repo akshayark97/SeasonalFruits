@@ -17,7 +17,7 @@ function SeasonFruitDetails({ route }) {
         behavior="position"
         keyboardVerticalOffset={Platform.OS === "ios" ? 0 : 100}
       >
-        <Image style={styles.image} tint="light" />
+        <Image style={styles.image} tint="light" source={listings.imageUrl}/>
         <View style={styles.detailsContainer}>
           <Text style={styles.title}>{listings.name}</Text>
           <View>
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     padding: 5,
   },
   image: {
-    height: 300,
+    height: 200,
     width: "100%",
   },
   price: {
