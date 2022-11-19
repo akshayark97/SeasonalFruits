@@ -14,6 +14,7 @@ function SeasonFruits({ navigation, route }) {
         renderItem={({ item }) => (
           <Card
             title={item.name}
+            imageUrl={item.imageUrl}
             onPress={() => navigation.navigate(routes.FRUIT_DETAILS, item)}
           />
         )}
