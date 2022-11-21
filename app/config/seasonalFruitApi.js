@@ -8,7 +8,7 @@ export const seasonalFruitApi = [
         season: "january",
         name: "Papaya",
         imageUrl: require("../../assets/Images/papaya.png"),
-        color: ["Green", "Yello"],
+        color: ["Green", "Yellow"],
         healthBenefits: {
           description:
             "Reduce the risk of heart disease and prevent the oxidation of cholesterol.",
@@ -112,12 +112,13 @@ export const seasonalFruitApi = [
   },
   {
     id: "february",
-    imageUrl: require("../../assets/Images/seasonalFruitJanuary.png"),
+    imageUrl: require("../../assets/Images/seasonalFruitFebruary.png"),
     fruits: [
       {
         id: "foran",
         season: "february",
         name: "Oranges",
+        imageUrl: require("../../assets/Images/orange.png"),
         color: ["Orange"],
         healthBenefits: {
           description:
@@ -130,6 +131,7 @@ export const seasonalFruitApi = [
         id: "fchi",
         season: "february",
         name: "Chickoo",
+        imageUrl: require("../../assets/Images/chickoo.png"),
         color: ["Pale yellow", "Earthy brown"],
         healthBenefits: {
           description:
@@ -149,6 +151,7 @@ export const seasonalFruitApi = [
         id: "fmusk",
         season: "february",
         name: "Muskmelon",
+        imageUrl: require("../../assets/Images/muskmelon.png"),
         color: ["Creamy", "Light yellow-orange"],
         healthBenefits: {
           description:
@@ -167,6 +170,7 @@ export const seasonalFruitApi = [
         id: "fgrap",
         season: "february",
         name: "Grapes",
+        imageUrl: require("../../assets/Images/grapes.png"),
         color: ["Green", "Black", "Red", "Purple"],
         healthBenefits: {
           description:
@@ -179,7 +183,8 @@ export const seasonalFruitApi = [
         id: "fgua",
         season: "february",
         name: "Guava",
-        color: ["green", "yellow", "maroon"],
+        imageUrl: require("../../assets/Images/guava.png"),
+        color: ["Green", "Yellow", "Maroon"],
         healthBenefits: {
           description:
             "May Help Lower Blood Sugar Levels, May Boost Heart Health, May Help Relieve Painful Symptoms of Menstruation, May Benefit Your Digestive System, May Aid Weight Loss, May Have an Anticancer Effect, May Help Boost Your Immunity, Eating Guavas May Be Good for Your Skin",
@@ -201,6 +206,7 @@ export const seasonalFruitApi = [
         id: "fpap",
         season: "february",
         name: "Papaya",
+        imageUrl: require("../../assets/Images/papaya.png"),
         color: ["Red", "Orange", "Yellow"],
         healthBenefits: {
           description:
@@ -213,6 +219,7 @@ export const seasonalFruitApi = [
         id: "fpom",
         season: "february",
         name: "Pomegranate",
+        imageUrl: require("../../assets/Images/pomogranate.png"),
         color: ["White-yellow", "Green", "Pink", "Red", "Dark purple"],
         healthBenefits: {
           description:
@@ -233,6 +240,7 @@ export const seasonalFruitApi = [
         id: "fpin",
         season: "february",
         name: "Pineapple",
+        imageUrl: require("../../assets/Images/pineapple.png"),
         color: ["Yellow", "Brown"],
         healthBenefits: {
           description:
