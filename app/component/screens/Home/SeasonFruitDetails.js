@@ -21,23 +21,23 @@ function SeasonFruitDetails({ route }) {
         <View style={styles.detailsContainer}>
           <Text style={styles.title}>{listings.name}</Text>
           <View>
-            <Text style={styles.sectionTitle}>Color</Text>
+            <Text style={styles.sectionTitle}>Colors Available</Text>
             {listings.color.map((color) => (
               <Text style={styles.sectionSubText}>{color}</Text>
             ))}
           </View>
           <View>
-            <Text style={styles.sectionTitle}>Health Benefit</Text>
+            <Text style={styles.sectionTitle}>Health Benefits</Text>
             <Text style={styles.sectionSubText}>{listings.healthBenefits.description}</Text>
           </View>
           <View>
-            <Text style={styles.sectionTitle}>Vitamin</Text>
+            <Text style={styles.sectionTitle}>Vitamins</Text>
             {listings.vitamin.map((vit) => (
               <Text style={styles.sectionSubText}>{vit}</Text>
             ))}
           </View>
           <View>
-            <Text style={styles.sectionTitle}>Places</Text>
+            <Text style={styles.sectionTitle}>Places to grow in India</Text>
             {listings.places.map((place) => (
               <Text style={styles.sectionSubText}>{place}</Text>
             ))}

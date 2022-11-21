@@ -37,7 +37,7 @@ function SearchFruitDetails({ navigation }) {
         <FormField
           maxLength={255}
           name="searchItem"
-          placeholder="Search fruit season"
+          placeholder="Find fruit in season"
         />
         <SubmitButton title="Search" />
       </Form>
